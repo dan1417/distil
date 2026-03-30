@@ -7,7 +7,7 @@ import logging
 import click
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("distillation.miner")
+logger = logging.getLogger("distillation.model_check")
 
 TEACHER_MODEL = "Qwen/Qwen3.5-35B-A3B"
 TEACHER_TOTAL_PARAMS_B = 35.0
