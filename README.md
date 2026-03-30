@@ -23,7 +23,6 @@ The evaluation system uses a **king-of-the-hill** architecture for efficient, hi
 
 ### Anti-Gaming
 
-- **Logit fingerprinting**: Even if hashes differ, models with identical KL distributions on the first 2 prompts are flagged as functional copies (cosine similarity > 0.9999 on per-position KL vectors)
 - **MoE-aware param counting**: Total params from safetensors metadata (not config estimates)
 
 ### Model Requirements
